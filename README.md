@@ -26,11 +26,11 @@ pip install ebooklib
 
 ## Commission
 
-There is a file named `commissioning.yaml` where you define everything you want out of the agents. Be detailed but if you define the chapters it will be a little weird otherwise be. as. explcit. as. possible. with. your. expectations.
+There is a file named `commissioning.yaml` where you define everything you want out of the agents. Be detailed but if you overly define the chapters it will be a little weird. Please. be. as. explcit. as. possible. with. your. expectations.
 
 ## Run
 
-In the directory you downloaded it you can run it and call the commissioning file. 
+Call the `make_book.py` with the `commisioning.yaml` to start.
 
 ```bash
 python make_book.py --commission commissioning.yaml
