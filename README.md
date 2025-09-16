@@ -22,7 +22,9 @@ source .venv/bin/activate
 pip install mistralai
 pip install PyYAML
 pip install ebooklib
+export MISTRAL_API_KEY=""
 ```
+Make sure to enter your Mistral API Key
 
 ## Commission
 
