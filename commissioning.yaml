@@ -1,32 +1,24 @@
 meta:
-  title: "OpenPGP Mastery"
-  author: "Jake Smith"
+  title: "Book Title"
+  author: "YOUR NAME"
   language: "en"
   model: "mistral-small"
   max_words: 16000
 
 commission:
   subject: |
-    A deep dive into OpenPGP for engineers, covering quantum-resistant key generation, cryptographic fundamentals, and real-world applications. This book bridges theory and practice, enabling readers to implement OpenPGP securely for email, file storage, chat, and beyond. It emphasizes verifiable trust, operational security, and independence from government-backed standards (e.g., NIST).
+    - "What is the subject of the book?"
 
   goals_for_reader: |
-    - "Proficiency: Generate, manage, and use OpenPGP keys (including quantum-resistant algorithms) with confidence.
-    - "Understanding: Grasp the mathematics behind key generation, signing, encryption, and decryption.
-    - "Operational Security: Adopt best practices for key storage, backup, and usage to mitigate risks.
-    - "Practical Skills: Use OpenPGP in email clients, file encryption, and chat applications (e.g., family group chats).
-    - "Verification: Test claims through hands-on examples, including DNS proofs (e.g., `openpgp4fpr`), key revocation, and cross-platform compatibility.
-    - "Privacy: Leverage OpenPGP for daily use while minimizing exposure to surveillance or compromise.
+    - "Detailed list of the goals for the reader."
+    - "Be specific and detailed."
 
   target_audience: |
-    - "Primary: IT engineers with basic coding/cryptography knowledge who demand rigorous, testable explanations.
-    - "Secondary: Privacy-conscious users seeking advanced OpenPGP applications (e.g., encrypted family chats, secure file sharing).
-    - "Mindset: "Trust but verify"—readers will validate concepts through commands, code snippets, and real-world scenarios.
+    - "Define the target audience."
+    - "Define the target audiences background."
 
   tone_and_style: |
-    - "Clear and Pragmatic: Avoid unnecessary jargon; define terms like "ECC" or "post-quantum cryptography" in context.
-    - "Hands-On: Include terminal commands, configuration files, and troubleshooting tips for Linux/macOS/Windows.
-    - "Skeptical-Friendly: Address common misconceptions (e.g., "Is RSA still safe?") with data and alternatives.
-    - "Example-Driven: Use case studies (e.g., encrypting a family chat, publishing proofs to DNS).
+    - "Same contextual tone and style as you would use in an agent prompt."
 
 constraints:
   page_size_inches: [8.0, 5.5]
@@ -36,16 +28,11 @@ constraints:
 structure:
   target_chapters: 10
   must_cover:
-    - "Chapter 1: OpenPGP Fundamentals"
-    - "Chapter 2: Quantum-Resistant Key Generation"
-    - "Chapter 3: Signing, Encryption, and Decryption"
-    - "Chapter 4: Proofs and Identity Verification"
-    - "Chapter 5: Operational Security (OpSec)"
-    - "Chapter 6: Email Clients and Workflows"
-    - "Chapter 7: OpenPGP Beyond Email"
-    - "Chapter 8: Advanced Use Cases"
-    - "Chapter 9: Troubleshooting and Attacks"
-    - "Chapter 10: The Future of OpenPGP"
+    - "Topic 1"
+    - "Topic 2"
+    - "Topic 3"
+    - "Topic 4"
+    - "Topic 5"
 
 publishing:
   out_dir: "./output"
@@ -56,7 +43,5 @@ publishing:
 
 suggestions:
   - "Appendices:"
-  - "  - Glossary of terms (e.g., 'subkey,' 'trust model')."
-  - "  - Cheat sheet of critical `gpg` commands."
-  - "Companion Repo: Host code examples, test vectors, and updates (e.g., new post-quantum algorithms)."
-  - "Reader Exercises: Decrypt a sample message, publish a key proof, or audit key entropy."
+  - "  - Glossary of terms."
+  - "  - Cheat sheets"
