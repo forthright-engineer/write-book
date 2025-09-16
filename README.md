@@ -1,6 +1,10 @@
 # write-book
 *Write a book using Autonomous Agents*
 
+## ❕ Notice
+
+Please do not use this to attempt to write in the style of another author or to write fiction. This tool was generate to write documentaiton for information technology tools. Use at your own risk. 
+
 ## Setup
 
 This is assuming you have Python installed on your computer and you are using an IDE such as VS Code or Cursor.
