@@ -38,4 +38,4 @@ You will find a new directory named "output" that will hold all the files genera
 
 ### Additional Notes
 
-This has taken about 5 miuntes for me to write 16,000 words using the `mistral-tiny` tiny langauge model. 
+This has taken about 5 miuntes for me to write 16,000 words using the `mistral-small` small langauge model. 
